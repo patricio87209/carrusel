@@ -3,13 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 import Box from './components/Box';
 import Circle from './components/Circle';
+import Carrusel from './components/Carrusel'
 
 function App() {
   return (
-    <div className='App'>
-        <Box/>
-        <Circle/>
-    </div>
+    <Carrusel>
+      <Box/>
+      <Box/>
+      <Box/>
+      <Box/>
+      <Circle/>
+      <Circle/>
+      <Circle/>
+      <Circle/>
+    </Carrusel>
   );
 }
 
