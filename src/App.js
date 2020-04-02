@@ -9,8 +9,6 @@ function App() {
   return (
     <Carrusel>
       <Box/>
-      <Box/>
-      <Circle/>
       <Circle/>
     </Carrusel>
   );
