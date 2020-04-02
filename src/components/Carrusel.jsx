@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../src/App.css'
 
+
 function Carrusel(props){
   return (
     <div className='App'>

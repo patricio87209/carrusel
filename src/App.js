@@ -10,10 +10,6 @@ function App() {
     <Carrusel>
       <Box/>
       <Box/>
-      <Box/>
-      <Box/>
-      <Circle/>
-      <Circle/>
       <Circle/>
       <Circle/>
     </Carrusel>
