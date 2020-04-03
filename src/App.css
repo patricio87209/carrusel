@@ -1,16 +1,16 @@
 .Box {
   border-style: solid;
   border-color: purple;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 .Circle {
   border-style: solid;
   border-color: purple;
   border-radius: 50%;
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 .Centrado {
