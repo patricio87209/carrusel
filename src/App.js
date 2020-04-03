@@ -4,10 +4,12 @@ import './App.css';
 import Box from './components/Box';
 import Circle from './components/Circle';
 import Carrusel from './components/Carrusel'
+import Form from './components/Form';
 
 function App() {
   return (
     <Carrusel name='Carrusel' color='red'>
+      <Form/>
       <Box/>
       <Circle/>
       <Carrusel name='Carrusel hijo' color='blue'>
