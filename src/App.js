@@ -7,9 +7,13 @@ import Carrusel from './components/Carrusel'
 
 function App() {
   return (
-    <Carrusel>
+    <Carrusel color='red'>
       <Box/>
       <Circle/>
+      <Carrusel color='blue'>
+        <Box/>
+        <Circle/>
+      </Carrusel>
     </Carrusel>
   );
 }

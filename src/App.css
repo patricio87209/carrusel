@@ -22,3 +22,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.RoundButton {
+  background-color: darkcyan;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: red;
+}

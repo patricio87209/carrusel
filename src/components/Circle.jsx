@@ -5,7 +5,7 @@ class Circle extends Component {
 
   render() {
     return (
-      <div className='Circle'>
+      <div className='Circle Centrado'>
         <h1> Circle </h1>
         </div>
     );
