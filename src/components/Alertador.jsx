@@ -3,7 +3,7 @@ import '../../src/App.css'
 
 function Alertador(){
 
-  const [bool, setBool] = useState(false);
+  const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     alert("Alerta: componente montado.");
@@ -15,13 +15,14 @@ function Alertador(){
 },[]);
 
 useEffect(() => {
-  alert("Alerta: componente actualizado.");
-
-},[bool]);
+  if(counter){
+    alert("Alerta: componente actualizado.")
+  }
+},[counter]);
 
   const handleClick = () => {
-    setBool(!bool)
-    console.log(bool)
+    setCounter(counter + 1)
+    console.log(counter)
   }
 
   return (
