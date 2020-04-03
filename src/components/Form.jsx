@@ -4,14 +4,14 @@ import '../../src/App.css'
 
 function Form (){
 
-    let [nombre, setNombre] = useState('');
+    let [nombre, setNombre] = useState(undefined);
 
-    function handleSubmit() {
+    const handleSubmit = () => {
         alert(nombre);
     } 
 
 
-    function handleChange(event){
+    const handleChange = (event) => {
       setNombre(event.target.value);
       console.log(event.target.value)
     }

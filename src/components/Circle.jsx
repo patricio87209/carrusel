@@ -7,7 +7,7 @@ class Circle extends Component {
     return (
       <div className='Circle Centrado'>
         <h1> Circle </h1>
-        </div>
+      </div>
     );
   }
 }

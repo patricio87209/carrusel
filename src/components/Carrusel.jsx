@@ -3,31 +3,29 @@ import '../../src/App.css'
 
 
 
-function Carrusel(props){
+function Carrusel({children, name, color}){
   
-  let [componentRendered, setComponentRendered] = useState(0);
-  let size = props.children.length
+  const [index, setIndex] = useState(0);
+  const size = children.length
 
 
     const previousItem = () => {
         
-        ((componentRendered -1) % props.children.length) < 0 ? setComponentRendered(props.children.length - 1) : setComponentRendered((componentRendered -1) % props.children.length);  
-        console.log(componentRendered)
+        ((index -1) % size) < 0 ? setIndex(size - 1) : setIndex((index -1) % size);  
     }
 
     const nextItem = () => {
-        setComponentRendered((componentRendered +1) % props.children.length)
-        console.log(componentRendered)
+        setIndex((index +1) % size)
     }
 
-    let colorStyle = {color: props.color}
+    let colorStyle = {color}
     
 return (
     <div className='Centrado Border'>
-    <h1>{props.name? props.name : "Carrusel"}</h1>
-        {props.children[componentRendered]}
+    <h1>{ name? name : "Carrusel"}</h1>
+        { children[index]}
         <button onClick={previousItem} style = {colorStyle}>
-            Anterios
+            Anterior
         </button>
         <button onClick={nextItem} style = {colorStyle}>
             Siguiente
