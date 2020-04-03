@@ -21,9 +21,10 @@ function Carrusel(props){
     }
 
     let colorStyle = {color: props.color}
+    
 return (
-    <div className='App'>
-    <h1>Carrusel</h1>
+    <div className='Centrado Border'>
+    <h1>{props.name? props.name : "Carrusel"}</h1>
         {props.children[componentRendered]}
         <button onClick={previousItem} style = {colorStyle}>
             Anterios

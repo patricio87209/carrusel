@@ -7,10 +7,10 @@ import Carrusel from './components/Carrusel'
 
 function App() {
   return (
-    <Carrusel color='red'>
+    <Carrusel name='Carrusel' color='red'>
       <Box/>
       <Circle/>
-      <Carrusel color='blue'>
+      <Carrusel name='Carrusel hijo' color='blue'>
         <Box/>
         <Circle/>
       </Carrusel>
