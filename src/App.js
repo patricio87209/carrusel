@@ -5,6 +5,7 @@ import Box from './components/Box';
 import Circle from './components/Circle';
 import Carrusel from './components/Carrusel'
 import Form from './components/Form';
+import Alertador from './components/Alertador'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Form/>
       <Box/>
       <Circle/>
+      <Alertador/>
       <Carrusel name='Carrusel hijo' color='blue'>
         <Box/>
         <Circle/>

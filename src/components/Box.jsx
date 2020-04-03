@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../src/App.css'
 
-function Box(props){
+function Box(){
   return (
     <div className='Box Centrado'>
       <h1> Box </h1>
